@@ -1,0 +1,26 @@
+{
+     "name": "Hello World",
+     "description": "Atlassian Connect add-on",
+     "key": "com.example.myaddon",
+     "baseUrl": "https://bld1.boozang.com/boozang-jira",
+     "vendor": {
+         "name": "Boozang",
+         "url": "https://boozang.com"
+     },
+     "authentication": {
+         "type": "none"
+     },
+     "apiVersion": 1,
+     "modules": {
+         "generalPages": [
+             {
+                 "url": "/helloworld.html",
+                 "key": "hello-world",
+                 "location": "system.top.navigation.bar",
+                 "name": {
+                     "value": "Greeting"
+                 }
+             }
+         ]
+     }
+ }
